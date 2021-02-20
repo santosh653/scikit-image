@@ -22,7 +22,7 @@ python:
   - 3.9
   - nightly
 
-install: pip install
+install: pip install .
 
 script:
   - python setup.py install
